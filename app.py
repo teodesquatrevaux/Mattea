@@ -76,9 +76,9 @@ if st.session_state.etape1_resolue:
 
             st.write("Voici un aperçu de ce qui t'attend :")
             
-            st.image("images/londres.jpg", caption="La magnifique ville de Londres")
-            st.image("images/rue.jpg", caption="Bienvenue au Chemin de Traverse !")
-            st.image("images/train.jpg", caption="Le majestueux Poudlard Express")
+            st.image("londres.jpg", caption="La magnifique ville de Londres")
+            st.image("rue.jpg", caption="Bienvenue au Chemin de Traverse !")
+            st.image("train.jpg", caption="Le majestueux Poudlard Express")
             
         else:
             st.error("Oups... au moins une des réponses est incorrecte. Essaie encore !")
