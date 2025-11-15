@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configuration de la page (titre de l'onglet et icône)
-st.set_page_config(page_title="Chasse au Trésor", page_icon="🎁")
+st.set_page_config(page_title="Chasse au Cadeau", page_icon="🎁")
 
 # --- INITIALISATION DE L'ÉTAT ---
 # Nous devons "souvenir" si la première étape est résolue.
@@ -10,7 +10,7 @@ if 'etape1_resolue' not in st.session_state:
     st.session_state.etape1_resolue = False
 
 # --- TITRE PRINCIPAL ---
-st.title("🎂Chasse au trésor d'anniversaire !")
+st.title("🎂Chasse au cadeau d'anniversaire !")
 st.write("Pour trouver ton cadeau, tu dois d'abord résoudre ces énigmes... Mais attention aux fautes d'orthographe !")
 
 st.markdown("---")
