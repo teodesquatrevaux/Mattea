@@ -39,7 +39,7 @@ if st.button("Déverrouiller la suite"):
 if st.session_state.etape1_resolue:
     
     st.markdown("---")
-    st.header("Étape 2 : L'énigme du coeur")
+    st.header("Étape 2 : L'énigme n°2")
     st.info("On le porte sans le voir clairement.")
     reponse_acces_2 = st.text_input("Ta réponse pour l'étape 2 :", key="acces2")
 
